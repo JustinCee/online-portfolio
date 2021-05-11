@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Roboto+Mono:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -223,6 +224,7 @@ body {
   display: grid;
   grid-template-columns: 300px 1fr 1fr;
   grid-template-rows: 100px 1fr;
+  color: #f7f7f7;
 }
 
 #experience h3 {
@@ -230,6 +232,13 @@ body {
   grid-column-end: 4;
   grid-row-start: 1;
   grid-row-end: 2;
+  padding: 30px;
+  font-family: "Raleway", sans-serif;
+  color: #01a3e1;
+  padding-top: 35px;
+  font-size: 30px;
+  border-bottom: 1px #565759 dashed;
+  letter-spacing: 2px;
 }
 
 .education {
@@ -237,4 +246,55 @@ body {
   grid-column-end: 3;
   grid-row-start: 2;
   grid-row-end: 3;
+  display: flex;
+  flex-direction: column;
+}
+
+.education h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  font-family: "Raleway", sans-serif;
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+
+.details {
+  padding: 18px;
+  margin: 10px;
+  line-height: 1.8em;
+  border-left: 3px #01a3e1 solid;
+  margin-top: -5px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.work {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.work h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  font-family: "Raleway", sans-serif;
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+
+.work-experience {
+  padding: 20px;
+  margin: 10px;
+  line-height: 1.8em;
+  border-left: 3px #01a3e1 solid;
+  font-family: "Ubuntu", sans-serif;
+}
+
+#cap-icon {
+  padding: 10px;
+  color: #01a3e1;
 }
