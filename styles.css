@@ -43,6 +43,7 @@ body {
   justify-content: center;
   color: #f7f7f7;
   padding-top: 15px;
+  font-family: "Raleway", sans-serif;
 }
 
 .sidenav a:hover {
@@ -55,8 +56,9 @@ body {
   justify-content: center;
   text-align: center;
   color: #f7f7f7;
-  font-family: "Roboto Mono", monospace;
+  font-family: "Raleway", sans-serif;
   padding: 15px;
+  letter-spacing: 5px;
 }
 
 .icons {
@@ -90,13 +92,15 @@ body {
 }
 
 .landing-page h1 {
-  font-family: "Roboto Mono", monospace;
+  font-family: "Raleway", sans-serif;
   font-size: 80px;
+  letter-spacing: 10px;
 }
 
 .landing-page span {
-  font-family: "Roboto Mono", monospace;
+  font-family: "Raleway", sans-serif;
   color: #01a3e1;
+  letter-spacing: 10px;
 }
 /* landing page */
 /* About me  */
@@ -293,7 +297,13 @@ body {
   line-height: 1.8em;
   border-left: 3px #01a3e1 solid;
   margin-top: -5px;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 1px;
+}
+
+.details h5 {
+  color: #01a3e1;
+  font-size: 15px;
 }
 
 .work {
@@ -318,7 +328,13 @@ body {
   margin: 10px;
   line-height: 1.8em;
   border-left: 3px #01a3e1 solid;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 1px;
+}
+
+.work-experience h5 {
+  color: #01a3e1;
+  font-size: 15px;
 }
 
 #cap-icon {
