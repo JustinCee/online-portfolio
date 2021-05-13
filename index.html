@@ -25,7 +25,7 @@
       <a href="#experience">Experience</a>
       <a href="#projects">Projects</a>
       <a href="#testimonials">Testimonials</a>
-      <a href="#">Contact Me</a>
+      <a href="#contact-me">Contact Me</a>
       <div class="links">
         <div class="icons">
           <i id="icon" class="fab fa-github"></i>
@@ -241,7 +241,7 @@
           </div>
         </div>
        </div>
-       <div class="testimonial-cardA" >
+       <div class="testimonial-card" >
         <div class="inputs">
           <img src="./images/testimonial/C8 Apr21 Abdullah Isaacs (4).JPG" alt="Abdullah Isaacs">
           <div class="testimonial">
@@ -250,8 +250,93 @@
           </div>
         </div>
        </div>
+       <div class="testimonial-card" >
+        <div class="inputs">
+          <img src="./images/testimonial/C8 Apr21 Jesse Terblanche (1).JPG" alt="jesse-terblanche">
+          <div class="testimonial">
+            <h4>Jesse Terblanche</h4>
+            <p>Justin has a neat and vibrant personality with a great affinity for programming. Under pressure and tight schedules, he completes his work with ease. Anyone would be lucky to add him to there team.</p>
+          </div>
+        </div>
+       </div>
+       <div class="testimonial-card" >
+        <div class="inputs">
+          <img src="./images/testimonial/Jeandre Awood (4).JPG" alt="jeandre-awood">
+          <div class="testimonial">
+            <h4>Jeandre Awood</h4>
+            <p>Although calm and collected, Justin also has a positive, humorous side. This makes him an amicable culture fit for any organization.</p>
+          </div>
+        </div>
+       </div>
+       <div class="testimonial-card" >
+        <div class="inputs">
+          <img src="./images/testimonial/C8 Apr21Mikayla Beelders (3).JPG" alt="Mikayla-beelders">
+          <div class="testimonial">
+            <h4>Mikayla Beelders</h4>
+            <p>Although calm and collected, Justin also has a positive, humorous side. This makes him an amicable culture fit for any organization.</p>
+          </div>
+        </div>
+       </div>
       </div>
     </div>
     <!-- testimonials -->
+    <!-- contact form -->
+    <form
+      action="https://formspree.io/f/xpzkppbg"
+      method="POST"
+      >
+     <div id="contact-me">
+      <div class="contact-heading">
+        <h3>Contact Form</h3>
+      </div>
+      <div class="fields">
+        <div class="form-group">
+          <label class="form-label" for="name"><span>Your</span> Name</label>
+          <input
+            class="form-input"
+            type="text"
+            name="name"
+            id="name"
+            required          />
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="Contact number"><span>Your</span> Cell Number</label>
+          <input
+            class="form-input"
+            type="tel"
+            name="Contact number"
+            id="Contact number"
+            placeholder="072 123 3210"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="email"><span>Your</span> E-mail</label>
+          <input
+            class="form-input"
+            type="email"
+            name="_replyto"
+            id="email"
+            placeholder="example@email.com"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="message"><span>Your</span> Message</label>
+          <textarea
+            class="form-input"
+            name="message"
+            placeholder="Type message here"
+            required
+            id="message"
+          ></textarea>
+        </div>
+          <div class="form-group">
+            <button type="submit">Send</button>
+          </div>
+      </div>
+      <!-- your other form fields go here -->
+     </div>
+    </form>
   </body>
 </html>
