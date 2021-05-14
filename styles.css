@@ -676,7 +676,13 @@ button:hover {
   #testimonials {
     display: flex;
     flex-direction: column;
-    margin-top: 60%;
+    margin-top: 40%;
+  }
+
+  .testimonial-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   #contact-me {
