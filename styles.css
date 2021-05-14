@@ -417,6 +417,9 @@ body {
   color: #f7f7f7;
 }
 
+.info h4 {
+  color: #01a3e1;
+}
 .button {
   border-radius: 10px;
   border: 1px solid #01a3e1;
