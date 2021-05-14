@@ -66,6 +66,7 @@ body {
   justify-content: space-evenly;
   align-items: center;
   bottom: 30px;
+  color: #f7f7f7;
 }
 
 #icon:hover {
@@ -663,6 +664,15 @@ button:hover {
     margin-top: 180%;
   }
 
+  .cards {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card {
+    margin-bottom: 35px;
+  }
+
   #testimonials {
     display: flex;
     flex-direction: column;
@@ -672,5 +682,17 @@ button:hover {
   #contact-me {
     display: flex;
     flex-direction: column;
+  }
+
+  .content h3 {
+    font-size: 30px;
+  }
+
+  .details h5 {
+    font-size: 30px;
+  }
+
+  .work-experience h5 {
+    font-size: 30px;
   }
 }
