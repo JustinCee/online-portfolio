@@ -673,6 +673,10 @@ button:hover {
     padding: 1%;
   }
 
+  .pic_me {
+    margin-top: 85px;
+  }
+
   #experience {
     display: flex;
     flex-direction: column;
