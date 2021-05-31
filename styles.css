@@ -674,9 +674,9 @@ button:hover {
   }
 
   .pic_me {
-    margin-top: 30%;
-    height: 400px;
-    width: 400px;
+    margin-top: 20%;
+    /* height: 400px; */
+    /* width: 400px; */
   }
 
   #experience {
