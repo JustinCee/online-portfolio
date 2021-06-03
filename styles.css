@@ -637,10 +637,10 @@ button:hover {
   }
 
   .sidenav {
-    width: 100%;
+    width: -webkit-fill-available;
     height: auto;
     flex-direction: row;
-    gap: 1%;
+    gap: 4%;
   }
 
   .sidenav img {
