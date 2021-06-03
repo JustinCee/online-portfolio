@@ -634,7 +634,10 @@ button:hover {
     display: inline-flex;
     flex-direction: column;
   }
-
+  .landing-page {
+    height: 100vh;
+    width: 100%;
+  }
   .sidenav {
     width: -webkit-fill-available;
     height: auto;
