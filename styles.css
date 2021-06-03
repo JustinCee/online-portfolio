@@ -12,6 +12,10 @@ body {
   scroll-behavior: smooth;
   background-color: #2c2d2f;
 }
+
+.section {
+  width: 100%;
+}
 /* Navbar begin */
 .sidenav {
   height: -webkit-fill-available;
