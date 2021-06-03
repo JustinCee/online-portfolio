@@ -7,6 +7,12 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 body {
   font-family: sans-serif;
   scroll-behavior: smooth;
@@ -634,10 +640,7 @@ button:hover {
     display: inline-flex;
     flex-direction: column;
   }
-  .landing-page {
-    height: 100vh;
-    width: 100%;
-  }
+
   .sidenav {
     width: -webkit-fill-available;
     height: auto;
