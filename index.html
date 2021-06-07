@@ -34,6 +34,7 @@
         </div>
       </div>
     </div>
+    <!--page-->
     <div class="landing-page section">
       <img src="./images/C8 Apr21 Justin Calvert (1).JPG" alt="Justin Calvert" class="pic_me">
       <h1>Justin <span>Calvert</span></h1>
@@ -50,15 +51,12 @@
           I am <span>Justin Calvert</span> an
           <span>Aspiring Web Developer.</span>
         </h3>
-        <pre>
           <q
           >I am a very patient individual who is hard-working and I don't mind
           putting in the grunt work. I am an introvert but once I am comfortable
           around you I open up easily. I can be a very loud person but I know
           when to use my inside voice.</q
         >
-        </pre>
-        <pre>
           <q
           >My passion for the tech industry came from when i was in high school
           and they offered a class called Computer Applications Technology
@@ -70,7 +68,6 @@
           support learnership and it was successful. I have been in the tech
           industry ever since.</q
         >
-        </pre>
       </div>
       <div class="personal">
         <h3>Personal <span class="color">Information:</span></h3>
@@ -282,63 +279,67 @@
     </div>
     <!-- testimonials -->
     <!-- contact form -->
-    <form
+    <div class="contact-form-section">
+      <form
       action="https://formspree.io/f/xpzkppbg"
       method="POST"
+      class="contact-form"
       >
-     <div id="contact-me" class="section">
-      <div class="contact-heading">
-        <h3>Contact Form</h3>
-      </div>
-      <div class="fields">
-        <div class="form-group">
-          <label class="form-label" for="name"><span>Your</span> Name</label>
-          <input
-            class="form-input"
-            type="text"
-            name="name"
-            id="name"
-            required          />
-        </div>
-        <div class="form-group">
-          <label class="form-label" for="Contact number"><span>Your</span> Cell Number</label>
-          <input
-            class="form-input"
-            type="tel"
-            name="Contact number"
-            id="Contact number"
-            placeholder="072 123 3210"
-            required
-          />
-        </div>
-        <div class="form-group">
-          <label class="form-label" for="email"><span>Your</span> E-mail</label>
-          <input
-            class="form-input"
-            type="email"
-            name="_replyto"
-            id="email"
-            placeholder="example@email.com"
-            required
-          />
-        </div>
-        <div class="form-group">
-          <label class="form-label" for="message"><span>Your</span> Message</label>
-          <textarea
-            class="form-input"
-            name="message"
-            placeholder="Type message here"
-            required
-            id="message"
-          ></textarea>
-        </div>
-          <div class="form-group">
-            <button type="submit">Send</button>
+        <div id="contact-me" class="section">
+          <div class="contact-heading">
+            <h3>Contact Form</h3>
           </div>
-      </div>
-      <!-- your other form fields go here -->
-     </div>
-    </form>
+          <div class="fields">
+            <div class="form-group">
+              <label class="form-label" for="name"><span>Your</span> Name</label>
+              <input
+                class="form-input"
+                type="text"
+                name="name"
+                id="name"
+                required          />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="Contact number"><span>Your</span> Cell Number</label>
+              <input
+                class="form-input"
+                type="tel"
+                name="Contact number"
+                id="Contact number"
+                placeholder="072 123 3210"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="email"><span>Your</span> E-mail</label>
+              <input
+                class="form-input"
+                type="email"
+                name="_replyto"
+                id="email"
+                placeholder="example@email.com"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="message"><span>Your</span> Message</label>
+              <textarea
+                class="form-input"
+                name="message"
+                placeholder="Type message here"
+                required
+                id="message"
+              ></textarea>
+            </div>
+              <div class="form-group">
+                <button type="submit">Send</button>
+              </div>
+          </div>
+          <!-- your other form fields go here -->
+        </div>
+      </form>
+    </div>
+    
     <!-- my js -->
     <script src="./JS.js"></script>
   </body>
