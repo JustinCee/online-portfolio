@@ -662,7 +662,7 @@ button:hover {
 
   .sidenav {
     width: 100vw;
-    height: 50px;
+    height: 70px;
     flex-direction: row;
     position: sticky;
     top: 0;
@@ -714,5 +714,27 @@ button:hover {
 
   .icons {
     display: none;
+  }
+
+  .sidenav a {
+    display: flex;
+  }
+
+  .pic_me {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+  }
+
+  .landing-page h1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 55px;
+  }
+
+  #changeText {
+    display: flex;
+    text-align: center;
   }
 }
