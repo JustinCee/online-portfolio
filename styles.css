@@ -706,7 +706,7 @@ button:hover {
     text-align: center;
   }
 
-  .contact-form-section {
+  #contact-me {
     grid-row: 7;
     grid-column: 1;
     grid-column: 1;
@@ -774,5 +774,21 @@ button:hover {
 
   .buttons {
     gap: 20%;
+  }
+
+  .form-input {
+    width: 200px;
+  }
+
+  button {
+    width: 200px;
+    padding: 1%;
+  }
+
+  .contact-heading {
+    font-size: 25px;
+    padding-top: 3%;
+    display: flex;
+    justify-content: center;
   }
 }
