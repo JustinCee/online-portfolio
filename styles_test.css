@@ -1,18 +1,107 @@
-@media screen and (max-width: 500px) {
-  body {
-    display: inline-flex;
-    flex-direction: column;
-    grid-template-columns: 2px 1fr 2px;
-  }
+.contact-form-section {
+  grid-column: 2;
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+}
 
-  .sidenav {
-    width: 100%;
-    height: auto;
-    flex-direction: row;
-    gap: 1%;
-  }
+#contact-me {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 100px 1fr;
+}
 
-  .sidenav img {
-    margin-top: -15px;
-  }
+.contact-form {
+  grid-column: 2;
+  display: grid;
+  place-items: center;
+}
+
+.contact-heading {
+  grid-column-start: 2;
+  grid-row-start: 1;
+  grid-column-end: 3;
+  grid-row-end: 2;
+  font-family: "Raleway", sans-serif;
+  color: #01a3e1;
+  padding: 30px 40%;
+  padding-top: 35px;
+  font-size: 30px;
+  border-bottom: 1px #565759 dashed;
+  letter-spacing: 2px;
+}
+
+.contact-heading h3 {
+  display: flex;
+  flex-direction: row;
+}
+
+.fields {
+  grid-column-start: 1;
+  grid-row-start: 2;
+  grid-column-end: 3;
+  grid-row-end: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form-group {
+  padding: 2%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input {
+  border-radius: 50px;
+  background: #565759;
+  border: 1px solid #01a3e1;
+  outline: none;
+  color: white;
+  padding: 3%;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 3px;
+  color: white;
+  font-weight: bold;
+}
+
+.form-input::placeholder {
+  color: #f7f7f7;
+  font-family: "Raleway", sans-serif;
+}
+
+.form-label {
+  font-family: "Raleway", sans-serif;
+  color: #f7f7f7;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+button {
+  border-radius: 50px;
+  border: 2px solid #01a3e1;
+  font-size: 26px;
+  padding: 8px 97px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  background-color: #565759;
+  color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+}
+
+button:hover {
+  background-color: #01a3e1;
+  border-color: #01a3e1;
+  outline: none;
+  color: #2c2d2f;
+}
+
+.form-label span {
+  color: #01a3e1;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
 }
