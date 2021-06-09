@@ -600,6 +600,45 @@ body {
   color: #f7f7f7;
 }
 
+.form-input::placeholder {
+  color: #f7f7f7;
+  font-family: "Raleway", sans-serif;
+}
+
+.form-label {
+  font-family: "Raleway", sans-serif;
+  color: #f7f7f7;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+button {
+  border-radius: 50px;
+  border: 2px solid #01a3e1;
+  font-size: 26px;
+  padding: 8px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  background-color: #565759;
+  color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  width: 500px;
+}
+
+button:hover {
+  background-color: #01a3e1;
+  border-color: #01a3e1;
+  outline: none;
+  color: #2c2d2f;
+}
+
+.form-label span {
+  color: #01a3e1;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+
 /* contact form */
 
 @media screen and (max-width: 440px) {
