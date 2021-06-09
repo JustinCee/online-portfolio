@@ -20,12 +20,16 @@
         class="my-photo"
       />
       <h2>Justin Calvert</h2>
-      <a href="#">Home</a>
-      <a href="#about-me">About Me</a>
-      <a href="#experience">Experience</a>
-      <a href="#projects">Projects</a>
-      <a href="#testimonials">Testimonials</a>
-      <a href="#contact-me">Contact Me</a>
+      <div class="navbar-links">
+        <a href="#" class="navbar-link">Home</a>
+      <a href="#about-me" class="navbar-link">About Me</a>
+      <a href="#experience" class="navbar-link">Experience</a>
+      <a href="#projects" class="navbar-link">Projects</a>
+      <a href="#testimonials" class="navbar-link">Testimonials</a>
+      <a href="#contact-me" class="navbar-link">Contact Me</a>
+      <button class="navbar-button" onclick="toggleNavbar()">Justin</button>
+      </div>
+      
       <div class="links">
         <div class="icons">
           <a href="https://github.com/JustinCee" target="_blank"><i id="icon" class="fab fa-github"></i></a>
@@ -332,7 +336,7 @@
               ></textarea>
             </div>
               <div class="form-group">
-                <button type="submit">Send</button>
+                <button type="submit" class="submit">Send</button>
               </div>
           </div>
           <!-- your other form fields go here -->

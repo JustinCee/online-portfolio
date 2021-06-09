@@ -31,6 +31,10 @@ body {
   grid-column: 1;
 }
 
+.navbar-button {
+  display: none;
+}
+
 .my-photo {
   object-fit: contain;
   height: 200px;
@@ -612,7 +616,7 @@ body {
   font-size: 20px;
 }
 
-button {
+.submit {
   border-radius: 50px;
   border: 2px solid #01a3e1;
   font-size: 26px;
@@ -626,7 +630,7 @@ button {
   width: 500px;
 }
 
-button:hover {
+.submit:hover {
   background-color: #01a3e1;
   border-color: #01a3e1;
   outline: none;
@@ -780,7 +784,7 @@ button:hover {
     width: 200px;
   }
 
-  button {
+  .submit {
     width: 200px;
     padding: 1%;
   }
@@ -790,5 +794,44 @@ button:hover {
     padding-top: 3%;
     display: flex;
     justify-content: center;
+  }
+
+  .navbar-links {
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    background: #2c2d2f;
+    object-fit: contain;
+    position: fixed;
+    top: -100%;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    gap: 20px;
+    font-family: "Raleway", sans-serif;
+    color: #01a3e1;
+    transition: all 0.3s linear;
+  }
+
+  .navbar-links.active {
+    top: 0;
+    left: 0;
+  }
+
+  .navbar-button {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    font-size: 30px;
+    background: none;
+    border: none;
+    outline: none;
+    padding: 20px;
+    display: block;
+    font-family: "Raleway", sans-serif;
+    color: #01a3e1;
   }
 }
