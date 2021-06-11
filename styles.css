@@ -131,7 +131,7 @@ body {
   background-color: #2c2d2f;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 100px 1fr 300px;
+  grid-template-rows: 100px 1fr 300px 200px;
   padding: 5%;
   grid-column: 2;
 }
@@ -273,6 +273,32 @@ body {
   color: #01a3e1;
   font-size: 30px;
   letter-spacing: 2px;
+}
+
+.hobbies {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 40px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.hobbies h3 {
+  font-family: "Raleway", sans-serif;
+  color: #01a3e1;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+.hobbies p {
+  margin-left: 90px;
+  color: #f7f7f7;
+  letter-spacing: 2px;
+  font-size: 15px;
+  font-family: "Raleway", sans-serif;
 }
 /* About page */
 
@@ -819,6 +845,7 @@ body {
   .submit {
     width: 200px;
     padding: 1%;
+    margin-bottom: 10%;
   }
 
   .contact-heading {
@@ -865,5 +892,19 @@ body {
     display: block;
     font-family: "Raleway", sans-serif;
     color: #01a3e1;
+  }
+
+  .hobbies {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hobbies p {
+    margin-left: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
   }
 }
