@@ -64,3 +64,18 @@ var timeout = window.setTimeout(tick, delay);
 function toggleNavbar() {
   document.getElementsByClassName("navbar-links")[0].classList.toggle("active");
 }
+
+let navigation = document.getElementsByClassName("navbar-links")[0];
+let items = document.getElementsByClassName("navbar-link");
+
+for (let i = 0; i < items.length; i++) {
+  items[i].addEventListener("click", close);
+}
+
+function close(e) {
+  if (e.target.classList.contains("navbar-link")) {
+    if (navigation.classList.contains("active")) {
+      navigation.classList.remove("active");
+    }
+  }
+}
