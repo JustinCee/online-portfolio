@@ -478,6 +478,7 @@ body {
 .card img {
   height: 200px;
   width: 398px;
+  object-fit: cover;
 }
 
 .card:hover {
@@ -851,13 +852,14 @@ body {
   }
 
   .card {
-    max-width: 346px;
+    max-width: 300px;
     max-height: 310px;
   }
 
   .card img {
     height: 200px;
-    width: 344px;
+    width: 298px;
+    object-fit: cover;
   }
 
   .buttons {
